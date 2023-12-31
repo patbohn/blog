@@ -34,6 +34,9 @@ render_emoji = true
 # For example, `...` into `…`, `"quote"` into `“curly”` etc
 smart_punctuation = true
 
+[slugify]
+paths = "safe"
+
 [extra]
 # Put all your custom variables here
 

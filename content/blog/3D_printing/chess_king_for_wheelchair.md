@@ -14,10 +14,26 @@ So (as is tradition), I brought my 3D printer with me for this year's Christmas 
 
 I began by downloading an STL model for a [king chess piece from Creative-Prints](https://www.printables.com/model/582262-kingkonig-chess), imported it into Fusion 360, measured the inner diameter of the hole of a replacement rubber attachment, and incorporated such a hole to the model before started the first iteration of printing. After a few rounds of printing to evaluate the clearance for the hole diameter (decreasing it by 0.05 mm a few times) I finally achieved a good fit. (Tip: By printing out only the region of interest, for example by using the union setting of the Fusion 360 combine function, iteration speed is much faster while one saves material)
 
-However, I wasn't entirely satisfied with the upper edge on the model, as both the print quality and haptics were suboptimal. Similarly, the cross on top didn't print well after reducing infill to 10% and perimeters to 2 (to minimize the risk of injury when falling into it). Therefore I decided to create my own model from sketch(es) in Fusion 360. 
+![picture](iterations_for_fit.jpg)
 
-To create my own model, I started with a sketch of the body. Here, I sketched the outline if the rotationally symmetric parts using arcs, ensuring they ended tangentially to a semi-circle to improve haptics and printability. I then created the body using the rotational extrusion function. To add the cross at the top I then created another sketch, again targeting improved printability by reducing the overhang angle at the bottom, and rounding out the edges a bit more. Finally, I re-designed the cutout for the hole by adding small triangle extrusions to help gripping the metal pin of the electric wheelchair. And last but not least, during slicing I added a layer height modifier to reduce infill and perimeter number for the cross to ensure it is flexible. At a total print time of 65 minutes, I am quite proud how this turned out: 
+However, I wasn't entirely satisfied with the upper edge on the model, as both the print quality and haptics were suboptimal. Similarly, the cross on top didn't print well after reducing infill to 10% and perimeters to 2 (to minimize the risk of injury when falling into it). 
+
+![prev_edge_overhang](prev_edge_overhang.jpg)
+
+Therefore I decided to create my own model from sketch(es) in Fusion 360. 
+
+To create my own model, I started with a sketch of the body. Here, I sketched the outline if the rotationally symmetric parts using arcs, ensuring they ended tangentially to a semi-circle to improve haptics and printability. I then created the body using the rotational extrusion function. 
+
+![fusion_sketch](Fusion_sketch.png) 
+
+To add the cross at the top I then created another sketch, again targeting improved printability by reducing the overhang angle at the bottom, and rounding out the edges a bit more. 
+
+![fusion_fillets](Fusion_fillets.png)
+
+Finally, I re-designed the cutout for the hole by adding small triangle extrusions to help gripping the metal pin of the electric wheelchair. And last but not least, during slicing I added a layer height modifier to reduce infill and perimeter number for the cross to ensure it is flexible. At a total print time of 65 minutes, I am quite proud how this turned out: 
 
 ## The Result
 
-The final model is now [uploaded on Printables](https://www.printables.com/model/700548), where I also have uploaded the tool models used to cut the hole. I hope this post may bring joy to someone else that is using such an electric wheelchair! 
+![mounted](final_mounted.jpg)
+
+The final model is now [uploaded on Printables](https://www.printables.com/model/700548-chess-king-as-escooter-controller-stick-attachment), where I also have uploaded the tool models used to cut the hole. I hope this post may bring joy to someone else that is using such an electric wheelchair! 
