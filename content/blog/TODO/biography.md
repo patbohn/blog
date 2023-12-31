@@ -1,0 +1,25 @@
++++
+title = "Autobiography"
+date = 2023-12-31
++++
+
+### Medium Length Biography
+
+Grown up in a rural village in North-Rhine Westphalia, Germany I've started my academic career by studying LTBs. I had chosen Mathematics and Physics as "LKs", which suited the way my brain worked very well, so I got a few comments from teachers to possibly continue on this path. However, while I really enjoyed learning the mathematical description of the mechanisms underlying our world, to me they seemed quite "dry" to study. Instead, during a laid-back party shortly before finals were coming up, someone suggested to me to look into "human biology". Why not, I thought ... I didn't have biology in school after 9th grade, but that's mostly because I wasn't that interested in how many teeth a cow has, or remembering which plants are flowering in which season. 
+
+I previously had briefly been on a trip to study psychology - possibly inspired by some thrillers from ... However (luckily) my parents intervened there - the only time. Otherwise, they let me do my thing, which is what I'm deeply grateful for. 
+
+So I started looking around for universities offering "human biology" - or some similar alternative, such as "molecular medicine". I remember going to an entry exam in Göttingen (which I didn't do that well because - I didn't have biology during school), and being invited to an interview in Heidelberg (which I didn't do well because 1) see above, 2) I didn't know about wearing formal clothing during interviews for Bachelor studies, and 3) they asked a question that I still don't know the answer for ("how to determine the similarity of two genomes" - the answers we (2 interviewees) could deliver were "measure melting temp of heteroduplexes", "sequence and calculate similarity", but that wasn't sufficient for them ...)). 
+So, the search was ongoing - Until I had a closer look at Greifswald. A small, but modern city in the North-East of Germany (indeed, "East"). People from my hometome were somewhat shocked I considered moving, and even actually did, to East Germany. However, all I can say is that I found really good friends, and living so close to the sea was enjoyable. Luckily for me, the dean for the degree also did excellent work in selecting courses, with peak luck being that the Friedrich-Loeffler Institute (FLI) was located ~10 km away, meaning that the exceptional scientists from there came over to hold the virology lectures. 
+
+Of course, virology caught my focus - how fascinating how something so minimal is able to do so much stuff! And even more lucky was that I chose the right lab to do my Bachelor's and Master's thesis in! Thinking "I gotta improve my English skills" I went with the native english speaker... 
+
+At the same time, I got a bit bored only going to lectures and listening, or reading to material. In contrast, the practical courses (which I'm really thankful for) always re-ignited my curiosity. And so I decided to look around for a "HiWi" job - not really because of the money, but because it helped me stay motivated. And to my utter delight I found the Biomechanics group of Oliver Otto. There they do this fascinating thing of squeezing cells through a channel of liquid comprised of an inner and outer sheath, with the outer sheath having higher viscosity. This results in differential shear force on the cell, leading to its deformation, which is measured with a microscope. This method is called real-time deformability cytometry. I had the honor of generating the microfluidic channels used for this process, by taking a silicon wafer as a negatif where the channels were etched into and pouring degassed PDMS onto it, then letting it cure, followed by stamping out the in- and outlets before finally bonding it onto a thin glass that I had functionalized with a low temperature plasma. I optimized the process a bit, mostly improving the glass-PDMS bonding by adding cleaning steps and figuring out a way of handling the glass after functionalization that resulted in good seals, which I tested under a microscope. The good batches could then be used for evaluation in the RT-DC setup. As one part of this work, we were evaluating different lengths of channels, and to my outmost curiosity the length of the channel had a notable impact on sheath stability. This was unexpected because at the start we see laminar flow, and the same total pressure drop should be there for both the short and long versions. To investigate this I decided to take a few videos of this turbulent flow at different inner and sheath fluid velocities and different positions, which I then analyzed using ffmpeg in python. In the end, the results were unconvincing, as it appeared to not be an artifact from e.g. the pump setup, but something inherent to the system, likely related to mixing of the two fluids as they travel down the channel, and experimentally this was just fixed by using the shorter channel lengths. However, it helped me getting a bit more fluent in python! 
+
+As a next step I did my Master's thesis ...
+
+TODO:
+- first contact with Nanopores
+- stay in Essen
+- cold email Redmond
+- Motivation, Friends
