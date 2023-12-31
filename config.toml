@@ -34,7 +34,7 @@ smart_punctuation = true
 # Put all your custom variables here
 
 homepage_title = "Hello, I am Patrick!"
-homepage_subtitle = "Check out my bog for Nanopores, 3D printing and some thoughts!"
+homepage_subtitle = "Check out my blog for Nanopores, 3D printing and some other stuff!"
 
 # Refer https://support.google.com/analytics/answer/9539598?hl=en
 google_analytics_measurement_id = "G-KTS9MMPMV3"
