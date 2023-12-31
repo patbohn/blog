@@ -1,0 +1,67 @@
+# The URL the site will be built for
+base_url = "/"
+
+title = "NanoPat"
+description = "My Personal Blog"
+
+minify_html = true
+
+generate_free = true
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+theme = "boring"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "nord"
+
+# When set to "true", emoji aliases translated to their corresponding
+# Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
+render_emoji = true
+
+# Whether smart punctuation is enabled (changing quotes, dashes, dots in their typographic form)
+# For example, `...` into `…`, `"quote"` into `“curly”` etc
+smart_punctuation = true
+
+[extra]
+# Put all your custom variables here
+
+homepage_title = "Hello, I am Patrick!"
+homepage_subtitle = "Check out my bog for Nanopores, 3D printing and some thoughts!"
+
+# Refer https://support.google.com/analytics/answer/9539598?hl=en
+google_analytics_measurement_id = "G-KTS9MMPMV3"
+
+
+# Refer https://icons8.com/line-awesome for list of icons
+# Both `url` and `icon` should be set for each entry
+[[extra.social]]
+url = "https://github.com/patbohn"
+icon = "lab la-github"
+
+[[extra.social]]
+url = "https://twitter.com/PatrickBohnPB"
+icon = "lab la-twitter"
+
+[[extra.social]]
+url = "https://www.linkedin.com/in/patrick-bohn-b507a91a2/"
+icon = "lab la-linkedin-in"
+
+[[extra.social]]
+url = "https://orcid.org/0000-0002-8515-2067"
+icon = "lab la-orcid"
+
+[[extra.social]]
+url = "https://scholar.google.com/citations?user=0rIh2G4AAAAJ"
+icon = "lab la-google"
+
+[[extra.social]]
+url = "https://www.printables.com/@koalified_214786"
+icon = "lab la-print"
